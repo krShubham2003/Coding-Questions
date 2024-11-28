@@ -9,3 +9,4 @@ public:
       return isPowerOfThree(n/3);
     }
 };
+
