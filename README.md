@@ -1,2 +1,2 @@
 Hello This is my coding repository
-where I have soltion of some important DSA interview question you can check definitely it will haelp you 
+where I have solution of some important DSA interview questions you can check, definitely it will haelp you a lot.
