@@ -13,6 +13,20 @@
 // approach is first use recursion and then simply memo it , this is code of memo 
 
 
+// intitution is ---->
+
+// int solve(int i, int j, string s1,string s2,)
+// {
+//     if(i>=s1.length() || j>=s2.length()) return 0;
+//      if(s1[i]==s2[j])
+//      {
+//         return 1+solve(i+1,j+1,s1,s2);// 1+ isluye kyuki usko hum apne ans me add kie kyuki humko ek length answer mila 
+//      }
+//      return max(solve(i+1,j,s1,s2),solve(i,j+1,s1,s2));
+// }
+
+// ---> call this solve function in the main function 
+
 #include<bits/stdc++.h>
 using namespace std;
 class Solution {

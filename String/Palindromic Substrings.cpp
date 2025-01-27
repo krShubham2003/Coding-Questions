@@ -36,7 +36,7 @@ public:
     }
     int countSubstrings(string s) {
         int count=0;
-         int n=s.length();
+        int n=s.length();
         for(int i=0;i<n;i++)
         {
             for(int j=i;j<n;j++)
