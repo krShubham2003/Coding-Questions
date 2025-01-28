@@ -16,8 +16,9 @@ public:
 // function to push element 
 void MyStack ::push(int x) {
     // Your Code
+    // since top is initialised to -1 that's why we do top++ or top=top+1 to insert at 0 th index
     top=top+1;
-    arr[top]=x;
+    arr[top]=x; // arr[top] points to current top element
     return;
 }
 
